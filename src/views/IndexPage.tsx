@@ -1,9 +1,11 @@
 import Header from "../components/Header";
 
-export default function IndexPage() {
+function IndexPage() {
   return (
     <>
      <Header />
     </>
   )
 }
+
+export default IndexPage;
