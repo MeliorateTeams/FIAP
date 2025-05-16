@@ -1,9 +1,9 @@
-import Header from "../components/Header";
-
 export default function IndexPage() {
   return (
     <>
-     <Header />
+     <h1>Inicio</h1>
+     <div className="bg-green-500 text-white p-4">Tailwind funciona</div>
+
     </>
   )
 }
